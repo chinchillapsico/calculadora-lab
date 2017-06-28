@@ -1,5 +1,75 @@
-body{
-	
-	background-image: linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%);
+html,body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Khula', sans-serif;
+	background-color: ghostwhite;
 
+}
+.flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+
+}
+.flex-content{
+	vertical-align: middle;
+	width: 280px;
+}
+.head{
+	height: 80px;
+	border-top-left-radius: 44px;
+	border-top-right-radius: 44px;
+}
+.content{
+	height: 200px;
+	padding: 9% 7% 40% 7%;
+	border-bottom-left-radius: 44px;
+	border-bottom-right-radius: 44px;
+}
+.screen-case{
+	height: 42px;
+	background-color: darkgray;
+	padding: 3%;
+	border-radius: 5px;
+	margin-bottom: 5%;
+}
+.screen{
+	border-style: none;
+	width: 100%;
+	height: 40px;
+	font-weight: 800;
+	font-size: 30px;
+	text-align: right;
+	color: white;
+}
+hr{
+	background-color: white;
+	height: 2px;
+}
+input[type="button"], button{
+	border-radius: 50%;
+	border-style: none;
+	width: 19%;
+	height: 21%;
+	margin: 2%;
+	color: white;
+	font-weight:800;
+	font-size: 15px;
+}
+button:focus, input:focus{
+	outline: none;
+}
+.gray-dark{
+	background-color: #3b444b;
+}
+.gray-medium{
+	background-color: #62676b;
+}
+.gray-soft{
+	background-color: #bac7b6;
+}
+.gold{
+	background-color: #f0c50f;
 }
